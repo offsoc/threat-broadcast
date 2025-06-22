@@ -82,10 +82,10 @@ def main(top, auto_commit, gtk, mail_smtp, mail_user, mail_pass, qq_user, qq_pas
         Nsfocus(), 
         QiAnXin(), 
         RedQueen(), 
-        # AnQuanKe(),   # 已经不做 CVE 分析了
+        AnQuanKe(),   # 已经不做 CVE 分析了
         Vas(), 
         NVD(), 
-        # CNVD(),       # 不断升级反爬机制，尊重平台
+        CNVD(),       # 不断升级反爬机制，尊重平台
         CNNVD(), 
         Tenable() 
     ]
